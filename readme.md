@@ -8,6 +8,8 @@ The project structure is purposefully kept flat  and simple with minimal inherit
 
 1. Install [Docker](https://docs.docker.com/get-docker/) and add the host user to the docker group (usually requires a restart).
 
+1. Install `nvidia-container-runtime` to access your nvidia graphics card. If it's not already listed in apt-get then use the [official install instructions](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
+
 1. Install [VSCode](https://code.visualstudio.com/).
 
 1. Install the [Remote-Containers](https://code.visualstudio.com/docs/remote/containers) extension in VS Code.
